@@ -1,0 +1,238 @@
+@font-face {
+  font-family: Fjalla;
+  src: url(../fonts/FjallaOne-Regular.ttf);
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Fjalla;
+  font-size: 62, 5%;
+}
+
+.first {
+  text-align: center;
+  font-weight: lighter;
+}
+
+.first h1 {
+  font-size: 20px;
+  margin-bottom: 60px;
+  font-weight: lighter;
+}
+
+.first p {
+  font-size: 100px;
+  margin-bottom: 60px;
+  width: 400px;
+  text-align: center;
+  margin: auto;
+}
+
+.first img {
+  margin-bottom: 120px;
+}
+
+.first p:nth-of-type(2) {
+  margin-bottom: 150px;
+  margin: 0 auto 150px auto;
+}
+
+/* orbis section */
+
+.orbis {
+  background: url(../img/Orbis.jpg) no-repeat center;
+  background-size: cover;
+  min-height: 95vh;
+  color: #9e9e9e;
+  background-attachment: fixed;
+}
+
+.orbis div {
+  margin-left: 20%;
+  padding-top: 20%;
+}
+
+.orbis p:first-of-type {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.orbis h1 {
+  font-size: 110px;
+  font-weight: lighter;
+  color: white;
+  margin-bottom: 40px;
+}
+
+.orbis p:nth-of-type(2) {
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+
+.orbis p:nth-of-type(3) {
+  color: white;
+  border: 1px solid #9e9e9e;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  margin-bottom: -200px;
+}
+
+.orbis .btn:hover ~ .num {
+  opacity: 1;
+}
+
+.orbis .btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.orbis p:nth-of-type(4) {
+  margin-left: 70%;
+  font-size: 165px;
+  opacity: 0.3;
+}
+
+/* rollr */
+
+.rollr {
+  background: url(../img/laptop.png) no-repeat center;
+  background-size: cover;
+  min-height: 90vh;
+  color: #666666;
+  background-attachment: fixed;
+}
+
+.rollr div {
+  margin-left: 20%;
+  padding-top: 20%;
+}
+
+.rollr p:first-of-type {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.rollr h1 {
+  font-size: 110px;
+  font-weight: lighter;
+  color: black;
+  margin-bottom: 40px;
+}
+
+.rollr p:nth-of-type(2) {
+  margin-bottom: 80px;
+  font-size: 20px;
+}
+
+.rollr p:nth-of-type(3) {
+  color: black;
+  border: 1px solid black;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 16px;
+  margin-bottom: -200px;
+}
+
+.rollr p:nth-of-type(4) {
+  margin-left: 70%;
+  font-size: 165px;
+  opacity: 0.3;
+}
+
+.rollr .button:hover ~ .number {
+  color: black;
+  opacity: 1;
+}
+
+.rollr .button:hover {
+  background-color: black;
+  color: white;
+}
+
+/* galitos */
+
+.galitos {
+  background: url(../img/Galito\'s.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* tretto */
+
+.tretto {
+  background: url(../img/phones.jpg) no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* what more */
+
+.what {
+  background-color: black;
+  color: white;
+  min-height: 90vh;
+  padding-top: 130px;
+  margin-bottom: 320px;
+}
+.what h1 {
+  text-align: center;
+  font-size: 180px;
+  font-weight: ligther;
+  margin-bottom: 150px;
+}
+
+.what p:first-of-type {
+  margin-left: 40%;
+  margin-bottom: 70px;
+  color: #666666;
+  font-size: 22px;
+}
+
+.what p:nth-of-type(2) {
+  margin-left: 40%;
+  padding-bottom: 100px;
+  font-size: 60px;
+}
+
+.what p:nth-of-type(2):hover {
+  text-decoration: underline;
+}
+
+/* dribbble */
+
+.dribbble {
+  background-color: white;
+  font-size: 160px;
+  text-align: center;
+}
+
+.dribbble h1 {
+  margin-bottom: 150px;
+  font-weight: lighter;
+}
+
+.dribbble h1:hover {
+  text-decoration: underline;
+}
+
+.dribbble p {
+  font-size: 15px;
+  transform: scale(1);
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(0.8);
+  }
+
+  100% {
+    transform: scale(1.4);
+  }
+}
